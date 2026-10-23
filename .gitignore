@@ -1,0 +1,25 @@
+# Hata günlükleri
+logs/*.log
+
+# Yerel yapılandırma ve gizli bilgiler
+.env
+*.env
+config.local.php
+
+# Gerçek veri içerebilecek yedekler ve yüklemeler
+*.sql.bak
+backup/
+uploads/
+*.csv
+
+# Şema dosyası repoda olsun
+!database/schema.sql
+
+# Telifi belirsiz arka plan görseli
+assets/img/giris.jpg
+
+# Editör ve sistem dosyaları
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
